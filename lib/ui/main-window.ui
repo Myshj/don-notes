@@ -23,8 +23,11 @@
       <attribute name="horizontalHeaderStretchLastSection">
        <bool>true</bool>
       </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>17</number>
+      </attribute>
       <attribute name="verticalHeaderDefaultSectionSize">
-       <number>25</number>
+       <number>17</number>
       </attribute>
       <column>
        <property name="text">
@@ -42,6 +45,9 @@
      <widget class="QLineEdit" name="noteLine">
       <property name="maxLength">
        <number>64</number>
+      </property>
+      <property name="placeholderText">
+       <string>Type the note here and press Enter.</string>
       </property>
      </widget>
     </item>
